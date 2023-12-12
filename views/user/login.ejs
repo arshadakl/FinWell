@@ -1,18 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="en" data-bs-theme="">
+﻿<%- include('../user/layouts/header.ejs') %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <title>Login | ConnectMe | Chat Application HTML Template</title>
-    <link rel="stylesheet" href="/user/assets/css/bundle.css?v131">
-    <link rel="stylesheet" href="/user/assets/css/app.css?v131">
-    <!-- href="/user/css/style.css" -->
-</head>
-
-<body class="tyn-body">
     <div class="tyn-root">
         <div class="tyn-content tyn-auth tyn-auth-centered">
             <div class="container">
@@ -78,7 +65,7 @@
                             </div>
                         </div><!-- .card -->
                         <div class="text-center mt-4">
-                            <p class="small">Don't have an account? <a href="">Register</a></p>
+                            <p class="small">Don't have an account? <a href="/signup">Register</a></p>
                         </div>
                     </div><!-- .col -->
                 </div><!-- .row -->
@@ -86,8 +73,4 @@
         </div>
         
     </div>
-    <script src="assets/js/bundle.js?v131"></script>
-    <script src="assets/js/app.js?v131"></script>
-</body>
-
-</html>
+    <%- include('../user/layouts/footer.ejs') %>

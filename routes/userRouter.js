@@ -16,4 +16,6 @@ const userController = require('../controllers/userController')
 router.get('/login',userController.LoginPageLoad)
 router.post('/login',userController.doLogin)
 
+
+router.get('/signup',userController.signupPageLoad)
 module.exports = router
